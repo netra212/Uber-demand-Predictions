@@ -67,21 +67,27 @@ def dask_pipeline(df):
 if __name__ == "__main__":
     # current path
     current_path = Path(__file__)
+
     # set the root path
     root_path = current_path.parent.parent.parent
+
     # raw data path
     raw_data_dir = root_path / "data/raw"
+
     # dataframe names
     df_names = ["yellow_tripdata_2016-01.csv",
                 "yellow_tripdata_2016-02.csv",
                 "yellow_tripdata_2016-03.csv"]
+
     # read all dataframes
     dfs = []
+
     # loop and read all dfs
     for df_name in df_names:
         df_path = raw_data_dir / df_name
         df = read_dask_df(df_path)
         dfs.append(df)
+
     logger.info("Dask DataFrames are read successfully")
     
     # concatenate all dfs
