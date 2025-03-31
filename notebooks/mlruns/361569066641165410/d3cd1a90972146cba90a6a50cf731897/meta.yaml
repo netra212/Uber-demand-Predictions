@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/netrakc/Desktop/Uber-demand-Predictions/notebooks/mlruns/361569066641165410/d3cd1a90972146cba90a6a50cf731897/artifacts
+end_time: 1743422102739
+entry_point_name: ''
+experiment_id: '361569066641165410'
+lifecycle_stage: active
+run_id: d3cd1a90972146cba90a6a50cf731897
+run_name: burly-shark-120
+run_uuid: d3cd1a90972146cba90a6a50cf731897
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743422089901
+status: 3
+tags: []
+user_id: netrakc

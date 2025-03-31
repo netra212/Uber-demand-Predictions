@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/netrakc/Desktop/Uber-demand-Predictions/notebooks/mlruns/361569066641165410/e870d43fdfcc43a0b4a27047243db04b/artifacts
+end_time: 1743422022033
+entry_point_name: ''
+experiment_id: '361569066641165410'
+lifecycle_stage: active
+run_id: e870d43fdfcc43a0b4a27047243db04b
+run_name: righteous-donkey-872
+run_uuid: e870d43fdfcc43a0b4a27047243db04b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743422020300
+status: 3
+tags: []
+user_id: netrakc

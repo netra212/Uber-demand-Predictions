@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/netrakc/Desktop/Uber-demand-Predictions/notebooks/mlruns/361569066641165410/bc3ae8ba64154e63ac19697487e1494f/artifacts
+end_time: 1743422102120
+entry_point_name: ''
+experiment_id: '361569066641165410'
+lifecycle_stage: active
+run_id: bc3ae8ba64154e63ac19697487e1494f
+run_name: orderly-ram-411
+run_uuid: bc3ae8ba64154e63ac19697487e1494f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743422089912
+status: 3
+tags: []
+user_id: netrakc

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/netrakc/Desktop/Uber-demand-Predictions/notebooks/mlruns/361569066641165410/db59f440668a477eb68155dba9325d7a/artifacts
+end_time: 1743422027529
+entry_point_name: ''
+experiment_id: '361569066641165410'
+lifecycle_stage: active
+run_id: db59f440668a477eb68155dba9325d7a
+run_name: beautiful-grouse-491
+run_uuid: db59f440668a477eb68155dba9325d7a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743422020294
+status: 3
+tags: []
+user_id: netrakc

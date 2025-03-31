@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/netrakc/Desktop/Uber-demand-Predictions/notebooks/mlruns/361569066641165410/63b278d02e58436180ccf47cdf56d4f6/artifacts
+end_time: 1743422125567
+entry_point_name: ''
+experiment_id: '361569066641165410'
+lifecycle_stage: active
+run_id: 63b278d02e58436180ccf47cdf56d4f6
+run_name: mysterious-zebra-782
+run_uuid: 63b278d02e58436180ccf47cdf56d4f6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743422089874
+status: 3
+tags: []
+user_id: netrakc

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/netrakc/Desktop/Uber-demand-Predictions/notebooks/mlruns/361569066641165410/c533f0669dd84f2c809f9903c5b828ba/artifacts
+end_time: 1743422051598
+entry_point_name: ''
+experiment_id: '361569066641165410'
+lifecycle_stage: active
+run_id: c533f0669dd84f2c809f9903c5b828ba
+run_name: bright-stoat-277
+run_uuid: c533f0669dd84f2c809f9903c5b828ba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743422020278
+status: 3
+tags: []
+user_id: netrakc

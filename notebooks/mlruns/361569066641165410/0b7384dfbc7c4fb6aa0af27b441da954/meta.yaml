@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/netrakc/Desktop/Uber-demand-Predictions/notebooks/mlruns/361569066641165410/0b7384dfbc7c4fb6aa0af27b441da954/artifacts
+end_time: 1743422020655
+entry_point_name: ''
+experiment_id: '361569066641165410'
+lifecycle_stage: active
+run_id: 0b7384dfbc7c4fb6aa0af27b441da954
+run_name: ambitious-bat-376
+run_uuid: 0b7384dfbc7c4fb6aa0af27b441da954
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743422020319
+status: 4
+tags: []
+user_id: netrakc

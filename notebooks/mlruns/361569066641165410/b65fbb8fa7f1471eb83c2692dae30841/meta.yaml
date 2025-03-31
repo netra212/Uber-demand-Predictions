@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/netrakc/Desktop/Uber-demand-Predictions/notebooks/mlruns/361569066641165410/b65fbb8fa7f1471eb83c2692dae30841/artifacts
+end_time: 1743422090229
+entry_point_name: ''
+experiment_id: '361569066641165410'
+lifecycle_stage: active
+run_id: b65fbb8fa7f1471eb83c2692dae30841
+run_name: carefree-bee-458
+run_uuid: b65fbb8fa7f1471eb83c2692dae30841
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743422089968
+status: 4
+tags: []
+user_id: netrakc

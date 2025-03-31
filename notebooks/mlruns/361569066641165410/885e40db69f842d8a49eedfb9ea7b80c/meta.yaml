@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/netrakc/Desktop/Uber-demand-Predictions/notebooks/mlruns/361569066641165410/885e40db69f842d8a49eedfb9ea7b80c/artifacts
+end_time: 1743422029797
+entry_point_name: ''
+experiment_id: '361569066641165410'
+lifecycle_stage: active
+run_id: 885e40db69f842d8a49eedfb9ea7b80c
+run_name: suave-midge-286
+run_uuid: 885e40db69f842d8a49eedfb9ea7b80c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743422020280
+status: 3
+tags: []
+user_id: netrakc
