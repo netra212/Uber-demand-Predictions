@@ -1,0 +1,27 @@
+Project Name:
+Cabs Demand Prediction = Equivalent = No. Of Pickups. 
+
+Design a System. 
+System takes two inputs:
+    1. Region/Location. 
+    2. Time Interval. 
+System Output:
+    1. No. of Pickups.
+
+Dataset used:
+    - NYC Taxi. 
+        2016 - Jan, Feb, March.
+
+In Dataset, each row carried a information about ride.
+
+So, 
+We have to performs two major task. 
+    TASK 1: Divide the NYC map into regions. 
+        - Achieved through Unsupervised Learning -> kmeans Clustering 
+            - Optimum number of clusters Achieved = 30
+             Because It fullfill our criteria (Inter-region or inter-clusters distance).
+            To break NYC maps into region, our criteria is distance must be around 1 to 1.5 miles because in NYC city, it takes 15 mins to travel that must distance so that we have divided NYC maps into region.
+        - since our Dataset is too large like 3.3 crore, so i did not used the vanilla kmeans, but i implemented mini batch k means because it works on using the batch of the data points. It randomly takes the batch of the data points, on the batch_of_data_points, it shifted the centroids. so that it does not required whole data points so this approach was faster. 
+
+    TASK 2: Binning into Time axis - 15 mins interval. 
+        - 
