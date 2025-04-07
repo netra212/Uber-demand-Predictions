@@ -38,3 +38,8 @@ System_Output:
     - # of pikcups. 
 
 Once we gives the inputs, there will shown map plot -- showing different regions in NYC. 
+
+Legend will be shown: Color_Coded
+    - Region_Id
+    - Demand
+Driver can decide, where to move, for the next_time_interval. Driver will be to the region of higher demand. 
