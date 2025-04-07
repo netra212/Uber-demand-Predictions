@@ -24,4 +24,9 @@ We have to performs two major task.
         - since our Dataset is too large like 3.3 crore, so i did not used the vanilla kmeans, but i implemented mini batch k means because it works on using the batch of the data points. It randomly takes the batch of the data points, on the batch_of_data_points, it shifted the centroids. so that it does not required whole data points so this approach was faster. 
 
     TASK 2: Binning into Time axis - 15 mins interval. 
-        - 
+        - Each row contains datetime, which shows pickups_datetime But that was not into the 15 mins interval. So, I performs the resample operation (Which changed the time axis frequency). 
+        - then, i calculated the total number of pikcups. Like for each region, so, the final output is.
+        for a given time_interval_15_mins, I calculated the actual_demands(total_no_pikcups) which becomes our target regions. 
+        In total_no_pikcups, I calculated the average_pikcups (Exponential Moving Average) for a given region, and given 15 mins time intervals. 
+        then also, LAG features calculated because i am using the historical data so 
+        LAG_Features like t-1, t-2, t-3, t-4 features. 
