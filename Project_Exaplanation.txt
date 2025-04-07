@@ -30,3 +30,11 @@ We have to performs two major task.
         In total_no_pikcups, I calculated the average_pikcups (Exponential Moving Average) for a given region, and given 15 mins time intervals. 
         then also, LAG features calculated because i am using the historical data so 
         LAG_Features like t-1, t-2, t-3, t-4 features. 
+
+# Buidling StreamLit Apps.
+System_Input: 
+    - Location, Time_Interval 
+System_Output:
+    - # of pikcups. 
+
+Once we gives the inputs, there will shown map plot -- showing different regions in NYC. 
