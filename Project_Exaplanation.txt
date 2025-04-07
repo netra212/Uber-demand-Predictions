@@ -43,3 +43,6 @@ Legend will be shown: Color_Coded
     - Region_Id
     - Demand
 Driver can decide, where to move, for the next_time_interval. Driver will be to the region of higher demand. 
+
+Once sorted the calculated distance, 8 neighbouring region + current region, then total 9 regions will be plotted. 
+Input Data --> 9 Data Points. 

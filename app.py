@@ -1,5 +1,6 @@
 import joblib
 import dagshub
+from dagshub import init
 import mlflow
 import pandas as pd
 import streamlit as st
@@ -15,9 +16,9 @@ dagshub.init(repo_owner='netra200021kcbdr', repo_name='Uber-demand-Predictions',
 # set the mlflow tracking uri
 mlflow.set_tracking_uri("https://dagshub.com/netra200021kcbdr/Uber-demand-Predictions.mlflow")
 
-# get model name
+# Get model name
 registered_model_name = 'uber_demand_prediction_model'
-stage = "Production"
+stage = "Staging"
 model_path = f"models:/{registered_model_name}/{stage}"
 
 # load the latest model from model registry
@@ -102,7 +103,7 @@ if date and time:
     # plot the map
     st.subheader("MAP")
     
-    # list of 30 hex colors on a white background with 8 digits
+    # List of 30 hex colors on a white background with 8 digits
     colors = ["#FF0000", "#FF4500", "#FF8C00", "#FFD700", "#ADFF2F", 
             "#32CD32", "#008000", "#006400", "#00FF00", "#7CFC00", 
             "#00FA9A", "#00FFFF", "#40E0D0", "#4682B4", "#1E90FF", 
@@ -120,7 +121,6 @@ if date and time:
             ('reg',model)
     ])
     
-
 
     if map_type == "Complete NYC Map":
             # progress bar
@@ -164,7 +164,7 @@ if date and time:
     elif map_type == "Only for Neighborhood Regions":
             
             # calculate the distances from centroid
-            distances = kmeans.transform(scaled_cord).values.ravel().tolist()
+            distances = kmeans.transform(scaled_cord).ravel().tolist()
             distances = list(enumerate(distances))
             sorted_distances = sorted(distances, key=lambda x: x[1])[0:9]
             indexes = sorted([ind[0] for ind in sorted_distances])
